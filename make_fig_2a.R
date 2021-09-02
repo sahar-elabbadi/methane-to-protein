@@ -1,6 +1,12 @@
-#libraries: usmap, maptools, ggplot2
+## GENERATE FIGURE 2A
+## Map of stranded methane in the US 
+## Author: Sahar El Abbadi
 
-analytica_df <- read_excel(here("figures", "master_data_2021-03-22.xlsx"))
+## Run 0_config-run.R to load libraries 
+## Data input: "master_data_2021-03-22.xlsx" generated in Analytica 
+## Output: fig_2a
+
+analytica_df <- read_excel("master_data_2021-03-22.xlsx")
 analytica_df [ analytica_df == 'INF'] <- NA 
 
 map_col_order <- c("long", "lat", "ch4_emission", "source_type") 
@@ -27,10 +33,6 @@ analytica_df_map <- na.omit(analytica_df_map)
 
 # Make map of US 
 
-
-library(maps)
-library(mapproj)
-library(ggthemes)
 
 us_states <- map_data("state") #load lat and long data for US States
 
@@ -72,7 +74,8 @@ p <- p + geom_point(data = analytica_df_map, aes(x =long, y = lat,
   scale_size(range = c(0.1, 10), breaks = c(1, 100, 200, 300, 400), name = "Tons Methane / Day") #+ 
   #theme(legend.key.size = unit(3, ))
 
+fig_2a <- p # final figure file for export as PDF
 
-
+# legend formatting, font size, etc. were adjusted for the final paper in Adobe Illustrator 
 
 
