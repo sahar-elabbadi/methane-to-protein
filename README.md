@@ -6,14 +6,16 @@ For questions, comments and concerns regarding code, please contact Sahar El Abb
 
 August 2021
 
-PROJECT SUMMARY: Techno-economic model to evaluate the potential for producing methanotrophic protein from stranded methane in the United States. 
+PROJECT SUMMARY
+Techno-economic model to evaluate the potential for producing methanotrophic protein from stranded methane in the United States. 
 
-DATA SOURCES: All data used in analysis and figures are publicly available. Data on oil and gas facilities are available through the Earth Observation Group (https://eogdata.mines.edu/download_global_flare.html). All data on methane emissions from oil and gas facilities and landfills, flaring from landfills, and unit processes at wastewater treatment plants are available from the US Environmental Protection Agency through the following programs: Facilities Level Information on Greenhouse Gases Tool (https://ghgdata.epa.gov/ghgp/main.do), Landfill Methane Outreach Program (https://www.epa.gov/lmop/lmop-landfill-and-project-database), and Clean Watersheds Needs Survey for 2004 (https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2004-report-and-data), 2008 (https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2008-report-and-data), and 2012 (https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2012-report-and-data). 
+DATA SOURCES
+All data used in analysis and figures are publicly available. Data on oil and gas facilities are available through the Earth Observation Group (https://eogdata.mines.edu/download_global_flare.html). All data on methane emissions from oil and gas facilities and landfills, flaring from landfills, and unit processes at wastewater treatment plants are available from the US Environmental Protection Agency through the following programs: Facilities Level Information on Greenhouse Gases Tool (https://ghgdata.epa.gov/ghgp/main.do), Landfill Methane Outreach Program (https://www.epa.gov/lmop/lmop-landfill-and-project-database), and Clean Watersheds Needs Survey for 2004 (https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2004-report-and-data), 2008 (https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2008-report-and-data), and 2012 (https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2012-report-and-data). 
 
-CODE: 
+CODE 
 Techno-economic model was created in Analytica. Data from Analytica was used to generate Figures 2b-d, 3, and 5. R was used to generate Figures 2a and the data for Figure 4 using data exported from Analytica. master_data_2021-03-22.xlsx is the output from Analytica used as input for the code used to create Figures 2a and Figure 4. 
 
-Files: 
+FILES 
 
 Methane-Protein_Published.ana is the Analytica code, including techno-economic model, methane source analysis and sensitivity analysis. 
 
