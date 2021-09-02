@@ -1,10 +1,6 @@
 Displacing Fishmeal with Protein from Stranded Methane 
 
-Sahar H El Abbadi
-Evan D Sherwin
-Adam R Brandt 
-Stephen P Luby
-Craig S Criddle
+Sahar H El Abbadi, Evan D Sherwin, Adam R Brandt, Stephen P Luby, Craig S Criddle
 
 For questions, comments and concerns regarding code, please contact Sahar El Abbadi (elabbadi@stanford.edu)
 
